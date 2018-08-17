@@ -1,6 +1,6 @@
 <div>
   Student: {{ student.name }}<!-- template interpolation -->
-  <div [hidden]="!student.isJedi"> <!-- property bindding -->
+  <div *ngIf="student.isJedi"><!-- usando a diretiva ngIf -->
     Jedi Temple: {{ student.temple }}
   </div>
 </div>
