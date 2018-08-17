@@ -1,5 +1,10 @@
 # JediAcademy
 
+## Description
+This project was developed from the course 
+[Construindo Aplicações Web Com o Novo Angular (4, 5 e 6)](https://www.cod3r.com.br/portal/courses/construindo-aplicacoes-web-com-o-novo-angular-4,-5-e-6-19)
+ of the site [https://www.cod3r.com.br](https://www.cod3r.com.br/portal)
+<br />
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
 ## Development server
