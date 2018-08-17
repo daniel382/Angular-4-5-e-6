@@ -1,6 +1,16 @@
-<div>
-  Student: {{ student.name }}<!-- template interpolation -->
-  <div *ngIf="student.isJedi"><!-- usando a diretiva ngIf -->
-    Jedi Temple: {{ student.temple }}
+<div *ngIf="student">
+  Student: {{ student?.name }}<!-- template interpolation -->
+  <div *ngIf="student?.isJedi"><!-- usando a diretiva ngIf -->
+    Jedi Temple: {{ student?.temple }}
   </div>
 </div>
+
+<div *ngIf="!student">
+  Sem dados para exibir!
+</div>
+
+<!--
+  aplicando o operador de navegação segura
+  no ngIf
+  ou no '?'                                   
+-->
